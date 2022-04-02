@@ -4,10 +4,28 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sounds name="sound">
+    <sound>sound\sndPew01</sound>
+    <sound>sound\sndPew02</sound>
+    <sound>sound\sndBoum01</sound>
+  </sounds>
+  <sprites name="sprites">
+    <sprite>sprites\sprPlayer</sprite>
+    <sprite>sprites\sprEnemy001</sprite>
+    <sprite>sprites\sprShot01</sprite>
+    <sprite>sprites\sprShot02</sprite>
+    <sprite>sprites\sprMenuPlay</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bkgMenu</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\objMenuPlay</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\menu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
